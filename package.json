@@ -1,0 +1,30 @@
+{
+  "name": "roundtrip-node",
+  "version": "1.0.0",
+  "description": "A round trip server for the web socket protocol",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^7.4.1"
+  },
+  "engines": {
+    "node": ">= 13.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NTTDATA-EMEA/roundtrip-node.git"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "Oliver Koeth <oliver.koeth@nttdata.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NTTDATA-EMEA/roundtrip-node/issues"
+  },
+  "homepage": "https://github.com/NTTDATA-EMEA/roundtrip-node#readme"
+}
